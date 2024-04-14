@@ -3,7 +3,7 @@ const signup = document.getElementById("signup");
 const login = document.getElementById("login");
 const nav = document.getElementById("nav-index");
 
-let user = true;
+let user = false;
 
 if (user) {
     contentDiv.innerHTML = `<p>Content only for logged people</p>`;
