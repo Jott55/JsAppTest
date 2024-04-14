@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 50%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+form * {
+    padding: 2px;
+    margin: 2px;
+}
