@@ -1,0 +1,37 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#text-words {
+    background-color: azure;
+    padding: 100px;
+    margin: 10px;
+}
+
+#text-input {
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+#text-container {
+    color: white;
+    padding:100px;
+    margin: 10px;
+}
+
+#points {
+    padding: 100px;
+    background-color: plum;
+}
